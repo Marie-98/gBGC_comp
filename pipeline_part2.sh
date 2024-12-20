@@ -312,7 +312,6 @@ cd Sort_episodes_types
 cat ~/Murinae/Hydromyini/Final_data/list_genes.txt | parallel -j20 python3 ~/scripts/script_tab_for_sort_ep.py {} ~/Murinae/Hydromyini/Final_data/ ~/Murinae/Hydromyini/Sup_filter_paralogs/paralog_exons.txt 2>error.txt >out.txt
 
 for file in *_tab_for_sort_ep.csv ; do sed 1d $file ; done > tab_for_sort_ep_all_genes_hydromyini.csv
-## !!! ## AJOUTER TITRE COLONNES ###
 
 ### make the sorting ####
 ~/bin/sort_ep_type/MLsort tab_for_sort_ep_all_genes_hydromyini.csv optfile.txt posterior_optimum_hydromyini.csv
