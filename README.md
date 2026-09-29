@@ -11,7 +11,7 @@ You will also need some in files which are all in the "in_files" folder, except 
 
 As our pipeline is quite long to run (~3 weeks), all the final files we used for our analyses are in the "final_files_for_analyses" folder, available here : https://zenodo.org/records/14534843?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUxYmRiNTJhLTA3M2UtNGY2Yi05ZTc3LTlkZWU0MmM1OTIyOCIsImRhdGEiOnt9LCJyYW5kb20iOiIwOTM5NTNkNDBiZThkOTk4ZDI5ZTA1NDAwNWUzNjgzMyJ9.m9yPdEfreGPY9NHxMtik1vRGLHNNNLwXjsveXk08d7fqZL2IpX391lTXARbyNllB8Kj3664U4wmxFOW7EZUD-w.
 
-The project also contains the command to perform annotation transfert and produce exon sequences fasta files for the project "Protein response to deleterious episodes of GC-biased gene conversion in mammals of different Ne".
+The project also contains the command to obtain exon alignments from annotation transfert of genomes for the project "Protein response to deleterious episodes of GC-biased gene conversion in mammals of different Ne".
 
 The script "script_annot_transfert.sh" do the transfert of annotation from a reference genome for hominoidae and cercopithecidae (data used are detailed on the supplementary of the article). It calls the following scripts: script_lifton.sh, script_stats_gff_ref.sh, script_eval_transfert_annot_primates.sh and script_plot_stat_annot_transfert.R.
 
