@@ -18,4 +18,3 @@ The project also contains the command to obtain exon alignments from annotation 
 The script "script_annot_transfert.sh" do the transfert of annotation from a reference genome for Hominoidae and Cercopithecidae (data used are detailed on the supplementary of the article). It calls the following scripts: script_lifton.sh, script_stats_gff_ref.sh, script_eval_transfert_annot_primates.sh and script_plot_stat_annot_transfert.R.
 
 The script "script_make_exons_aln.sh" allows to obtain the exon alignments following the annotation transfert. It calls the following scripts: script_gene_seq.sh, tab_filter_prot_id.sh, get_filter_seq.sh, get_final_positions_of_exons_in_gene_aln.py, script_cut_exon_aln.sh and remove_seq_with_only_gap.py
-
